@@ -1,17 +1,17 @@
 # EVA-Assignment5
 1. File 1:
-    1. Target : Get the skeleton right and try to decrease the params we get
+    1. Target : First is first : Get the skeleton right - load the dataset, add sequential to make our life easy.
     2. Result:
         1. Parameter:251K
         2. Best training Accuracy : 99.83
         3. Best testing Accuracy : 99.00
     3. Analysis:
         1. Quite a heavy model
-        2. we do have a overfitting model we need to find out the solution for that
+        2. we do have a overfitting model - we need to find out the solution for that
         
         
 2. File 2:
-    1. Target:  Reduce the model size bring the parameters down and try to reduce overfitting by adding Normalization
+    1. Target:  Reduce the model size bring the parameters down and try to reduce overfitting
     2. Result
         1. Parameter : 10.5k
         2. Best training Accuracy : 99.9
@@ -39,11 +39,14 @@
         3. Test:99.00
     3. Analysis:
         1. We can analyse that size 5 kernel is where we can start seeing patterns
-        2. Model is still overfitting , may be we are thinking apun hi Bhagwan hai :P and I also need params less than 10k to pass the assignment
+        2. Model is still overfitting , may be we are thinking apun hi Bhagwan hai :P and we also need params less than 10k to pass the assignment
         
         
-5. File 5: Increase modal capacity, by see the data we see we need little transformation of slight rotation
-    1. Result:
+5. File 5: 
+    1. Target: Increase modal capacity, and also add slight rotation to the modal
+    2. Result:
         1. Parameter:8,346
         2. Train:99.14
         3. Test:99.41 (7th EPOCH)
+    3. Analysis:
+        1. We do have a good model
